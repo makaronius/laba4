@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Лабораторная работа №4</title>
+</head>
+<script>
+function closeWindow () {
+var window = open("https://www.youtube.com/", width = 600, height = 600);
+window.focus(); // фокус на активном элементе
+
+setTimeout(() => cWindow(), 5000);
+
+function cWindow(){
+window.close();
+}
+}
+</script>
+<body>
+<button id="button" onclick="closeWindow()">Открыть новое окно</button>
+</body>
+</html>
